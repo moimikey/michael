@@ -17,7 +17,7 @@
 
 	<header></header>
 
-	<div role="main">
+	<div role="main" id="main">
 		Hello
 	</div>
 
