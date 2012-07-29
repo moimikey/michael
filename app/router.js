@@ -1,10 +1,9 @@
 define([
-	// Application.
 	"app"
 ],
 	function (app) {
 		"use strict";
-		// Defining the application router, you can attach sub routers here.
+
 		var Router = Backbone.Router.extend({
 			routes: {
 				"": "index"
@@ -12,5 +11,6 @@ define([
 			index: function () {
 			}
 		});
+
 		return Router;
 	});
